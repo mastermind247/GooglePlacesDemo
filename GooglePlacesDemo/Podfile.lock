@@ -1,0 +1,78 @@
+PODS:
+  - AsyncDisplayKit (2.0-beta.1):
+    - AsyncDisplayKit/PINRemoteImage (= 2.0-beta.1)
+  - AsyncDisplayKit/ASDealloc2MainObject (2.0-beta.1)
+  - AsyncDisplayKit/Core (2.0-beta.1):
+    - AsyncDisplayKit/ASDealloc2MainObject
+  - AsyncDisplayKit/PINRemoteImage (2.0-beta.1):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.6)
+    - PINRemoteImage/PINCache
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+  - FBSDKCoreKit (4.17.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.17.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.17.0):
+    - FBSDKCoreKit
+  - GoogleMaps/Base (2.1.0)
+  - GooglePlaces (2.1.0):
+    - GoogleMaps/Base (= 2.1.0)
+  - Mixpanel-swift (2.1.0)
+  - PINCache (3.0.1-beta.2):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.2)
+    - PINCache/Core (= 3.0.1-beta.2)
+  - PINCache/Arc-exception-safe (3.0.1-beta.2):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.2)
+  - PINRemoteImage/Core (3.0.0-beta.6)
+  - PINRemoteImage/iOS (3.0.0-beta.6):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.6):
+    - PINCache (= 3.0.1-beta.2)
+    - PINRemoteImage/Core
+
+DEPENDENCIES:
+  - AsyncDisplayKit (= 2.0-beta.1)
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - GooglePlaces (~> 2.1)
+  - Mixpanel-swift (~> 2.1)
+
+SPEC CHECKSUMS:
+  AsyncDisplayKit: 4d4403eb61b2b667866e98ca8b7fab6cec497b68
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
+  FBSDKCoreKit: 30a21d2d7b92984b3d80497113433c00824c35e9
+  FBSDKLoginKit: 42b7129ac0373ca99eaf4cbebf4d07bd42371f59
+  FBSDKShareKit: 9b573d03fbee36cbaf42d5bb1f2bc019e0d72347
+  GoogleMaps: 06589b9a38097bce0cd6e90f0fd9b5e4b4a9344c
+  GooglePlaces: 16e96266483b8010e9f275399403647978523c86
+  Mixpanel-swift: 8bd335e85ea645dd5eacc1bb61f4b418fb4998d7
+  PINCache: 6d273a6e0754bd26e3f12a38a90dde73cc6a42b2
+  PINRemoteImage: 60156f185c9360ca4e93832cd490d6f6c7afbd9a
+
+PODFILE CHECKSUM: ab176a9f796e3fd64f57c7f931e6e4d2b939cc39
+
+COCOAPODS: 1.1.1

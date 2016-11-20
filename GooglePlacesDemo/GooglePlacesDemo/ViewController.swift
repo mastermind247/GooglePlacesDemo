@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import GooglePlaces
 
 class ViewController: UIViewController {
 
@@ -19,7 +20,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func IBbtnSearchTap(_ sender: UIButton) {
+        let placesClient = GMSPlacesClient()
+        placesClient.autocompleteQuery("Parth adroja", bounds: nil, filter: nil) { (places, error) in
+                print("PLACES = \(places)")
+        }
+    }
 }
 
